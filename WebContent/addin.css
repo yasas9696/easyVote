@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+body{
+    background-image: url(j.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+h1{
+    margin: 0px;
+    font-size: 60px;
+    color: #ffffff;
+    font-family: arial;
+    font-weight: bold;
+    font-align: center;
+    padding: 12px 0px 0px 0px;
+}
+.center{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.center1{
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+
+}
+.center2{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+
+}
+.center3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+ul li{
+    list-style: none;
+    border: 4px solid ;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+ul li a{
+    text-decoration: none;
+    padding: 25px 50px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+ul li:nth-child(1) a{
+    color: red;
+    border: 2px solid rgb(255,30,50,1);
+
+}
+ul li:nth-child(2) a{
+    color: lawngreen;
+    border: 2px solid rgb(0,255,0,1);
+}
+ul li:nth-child(3) a{
+    color: deeppink;
+    border: 2px solid rgb(255, 120, 249);
+
+}
+ul li:nth-child(4) a{
+    color: blue;
+    border: 2px solid rgb(99, 219, 255);
+}
+
+ul li:nth-child(5) a{
+    color: yellow;
+    border: 2px solid rgb(246, 255, 177);
+}
+
+ul li:nth-child(6) a{
+    color: purple;
+    border: 2px solid rgb(243, 58, 255);
+}
+
+ul li:nth-child(7) a{
+    color: orange;
+    border: 2px solid rgb(255, 234, 37);
+}
+ul li:nth-child(1):hover a{
+    box-shadow: 0px 0px 10px rgb(255,30,50,0.5), 0px 0px 10px rgb(255,30,50,1);
+    background-color: rgb(255,30,50,0.5);
+}
+
+ul li:nth-child(2):hover a{
+    box-shadow: 0px 0px 10px rgb(0,255,0,0.5), 0px 0px 10px rgb(0,255,0,1);
+    background-color: rgb(0,255,0,0.5);
+}
+
+ul li:nth-child(3):hover a{
+    box-shadow: 0px 0px 10px rgba(255, 22, 247, 0.5), 0px 0px 10px rgb(255, 40, 255);
+    background-color: rgba(230, 55, 255, 0.5);
+}
+
+ul li:nth-child(4):hover a{
+    box-shadow: 0px 0px 10px rgba(74, 148, 255, 0.5), 0px 0px 10px rgb(26, 27, 255);
+    background-color: rgba(56, 143, 255, 0.5);
+}
+
+
+ul li:nth-child(5):hover a{
+    box-shadow: 0px 0px 10px rgba(230, 255, 77, 0.5), 0px 0px 10px rgb(252, 255, 58);
+    background-color: rgba(231, 255, 111, 0.5);
+}
+
+
+ul li:nth-child(6):hover a{
+    box-shadow: 0px 0px 10px rgba(202, 111, 255, 0.5), 0px 0px 10px rgb(195, 31, 255);
+    background-color: rgba(248, 32, 255, 0.5);
+}
+
+
+
+ul li:nth-child(7):hover a{
+    box-shadow: 0px 0px 10px rgba(64, 154, 255, 0.5), 0px 0px 10px rgb(34, 43, 255);
+    background-color: rgba(109, 255, 254, 0.5);
+}
+
